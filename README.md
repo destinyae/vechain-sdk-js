@@ -65,14 +65,14 @@ guide.
 #### Additional prerequisite for Windows OS
 
 This SDK is supposed to be downloaded and installed with *Git*.
-*Yarn* scripts are distributed according Linux/MacOS/Unix  shell specifications.
+*Yarn* scripts are distributed according to Linux/MacOS/Unix  shell specifications.
 To let *Windows OS* to manage *Git* distributed software, to install and upgrade this SDK and run *Yarn* scripts,
 please, follow the instructions below.
 1. Install the official [Git for Windows](https://git-scm.com/download/win).
    The installation deploys the [Git Bash - MINGW](https://www.mingw-w64.org/) terminal in *Windows 0S*, 
    providing a terminal compatible with the *Yarn* scripts used in this SDK.
 2. From **Start**menu, click **Git Bash** to open the terminal compatible with the *Yarn* scripts. You are now
-3. ready to getting started.
+3. ready to get started.
 
 #### Configure JetBrains IDE to use Git Bash
 
@@ -199,7 +199,7 @@ It's also possible to include just a code snippet from an example file. For inst
 
 [DeployContractSnippet](examples/contracts/contract-create-ERC20-token.ts)
 
-Will just include into the documentation the code snippet between the comments `// START_SNIPPET: DeployContractSnippet` and `// END_SNIPPET: DeployContractSnippet` in the file `examples/contracts/contract-create-ERC20-token.ts`.
+Will just include in the documentation the code snippet between the comments `// START_SNIPPET: DeployContractSnippet` and `// END_SNIPPET: DeployContractSnippet` in the file `examples/contracts/contract-create-ERC20-token.ts`.
 
 Important: The code snippets names must be unique across all examples and must end with the word "Snippet".
 
